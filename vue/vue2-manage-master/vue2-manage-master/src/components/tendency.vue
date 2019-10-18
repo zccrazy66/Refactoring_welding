@@ -124,6 +124,7 @@
                     ]
               };
                 this.myChart.setOption(option);
+                // window.onresize = myChart.resize;
             }
         },
         watch: {

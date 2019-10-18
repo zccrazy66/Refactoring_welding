@@ -6,5 +6,4 @@ public interface PermissionService {
 
     JSONObject getUserPermission(String username);
 
-
 }

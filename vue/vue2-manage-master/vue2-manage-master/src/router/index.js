@@ -28,6 +28,8 @@ const login = () => import('@/page/login');
 const manage = () => import('@/page/manage');
 const home = () => import('@/page/home');
 
+const test = () => import('@/page/test');
+
 // const visitor = () => import('@/page/visitor');
 // const newMember = () => import('@/page/newMember');
 // const uploadImg = () => import('@/page/uploadImg');
@@ -77,6 +79,11 @@ const routes = [
             path: '/hot_detect',
             component: hot_detect,
             meta: ['图像识别', '热熔图片检测'],
+        },
+        {
+            path:'/test',
+            component: test,
+            meta:['测试用']
         }
         // },{
 		// 	path: '/addShop',
